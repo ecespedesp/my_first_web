@@ -1,0 +1,135 @@
+head:
+  title: "Portafolio Elias Cespedes"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hola, soy Elias Cespedes Pinedo."
+  subtitle: "Estudiante de ingeniería de sistemas"
+  description: "Actualmente estudio igenieria de sistemas en la universidad del Magdalena y me atrae mucho el desarrollo web (front-end)"
+  image:
+    x: "img/showcase/programming.gif"
+    _2x: "img/showcase/programming.gif"
+  imageMobile:
+    x: "img/showcase/programming.gif"
+    _2x: "img/showcase/programming.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contactame"
+    URL: "mailto:your-email@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/elias-cespedes-pinedo-aa771a220/"
+
+    - icon: "github"
+      URL: "https://github.com/ecespedesp"
+   
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/elias_dcp/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/people/Elias-David-Cespedes-Pinedo/pfbid02jLBEB5qrm1GoedGfBZMfZSxeAeH1su7prRkM8HrEV5RBDDmt7QsFk48qsXSxPHdxl/"
+
+# about
+about:
+  enable: true
+  title: "¿Quien soy?"
+  content: 
+    <p class="lead">
+    <strong>Me gusta la programación.</strong> Mi pasion es el entrenamiento deportivo y estudiar más sobre desarrollo web.Me gusta formarme con mas conocimiento por medio de
+    cursos y bootcamps para así ir ganando más experiencia. 
+    </p>
+    <p class="lead">
+    <strong>Mi area de más practica y experiencia es como desarrollador front-end.</strong>
+    El tema de dar forma, diseño y funcionalidad a una pagina web hecha por mi es algo que me da orgullo y felicidad.
+    Aprender sobre desarrollo web y aun seguir aprediendo es algo que he encontrado muy atrayente.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Sobre mí"
+    URL: "https://www.linkedin.com/in/elias-cespedes-pinedo-aa771a220/"
+  image:
+    x: "img/who-am-i/elias.png"
+    _2x: "img/who-am-i/elias.png"
+
+# experience
+experience:
+  enable: true
+  title: "Experiencia"
+  description: "Mi experiencia en proyectos web ha sido mas que todo académica, sin embargo he realizado 2 cursos por fuera
+  de la universidad, uno en HTML con SoloLearn y a su vez, un curso de CSS en esa misma plataforma"
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/elias-cespedes-pinedo-aa771a220/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Introducción a HTML"
+      company: "SoloLearn"
+      duration: "octubre 8, 2024"
+
+    - title: "Introducción a CSS"
+      company: "SoloLearn"
+      duration: "octubre 26, 2024"
+
+# education
+education:
+  enable: true
+  title: "Educación"
+  items:
+    - university: "Universidad del Magdalena"
+      year: "2019-2025"
+      degree: "Ingeniería de sistemas"
+
+
+# Client & Work
+client_and_work:
+  title: "Portafolios"
+  enable: true
+  
+  works:
+    - title: "Practica formulario HTML"
+      description: "Aún estoy formandome con práctica, este es mi primer trabajo de practica satisfactorio en HTML."
+        
+      image:
+        x: "img/works/practicahtml.png"
+        _2x: "img/works/practicahtml.png"
+      is_even: true
+
+# contact
+contact:
+  enable: true
+  title: "Contactame"
+    
+  image:
+    x: "img/who-am-i/elias2.png"
+    _2x: "img/who-am-i/elias2.png"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Enviar mensaje"
+    btnAction: 'mailto:your-email@gmail.com'
+    
+  phone:
+    title: "Numero de telefono"
+    number: "3167274565"
+  email:
+    title: "Email"
+    email: '<a href="mailto:eliasdcespedespinedo@gmail.com">eliasdcespedespinedo@gmail.com</a>'
+  
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
